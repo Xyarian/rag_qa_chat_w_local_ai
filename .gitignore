@@ -1,0 +1,30 @@
+__pycache__/
+
+test/
+build/
+dist/
+downloads/
+MANIFEST
+
+.venv/
+!/.venv_example/
+
+.env
+.env.*
+!.env_example
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+*.log
+local_settings.py
+db.sqlite3
+
+chroma_db/
+
+# Ignore everything in data folder
+/data/*
+# Allow only Microsoft_2023_Annual_Report.pdf for testing purposes
+!/data/Microsoft_2023_Annual_Report.pdf
